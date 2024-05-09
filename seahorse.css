@@ -1,0 +1,1284 @@
+#logo{
+    width: 4.5%;
+    position: fixed;
+    top: 0.5%;
+    left: 0.5%
+
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+
+#linea{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    margin: 0px;
+    position: fixed
+}
+h1{
+    position: fixed;
+    font-size: 30px;
+    left: 48%;
+    top: 5%;
+    color: aliceblue;
+}
+
+#contacto{
+    position: fixed;
+    font-size: 25px;
+    left: 78%;
+    top: 5%;
+    color: aliceblue;
+    cursor:pointer
+}
+
+#contenedordeimagenes{
+    display: flex;
+    width: 55%;
+    height: 70vh;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+margin-top: 80px;
+margin-left: 10px;
+}
+#contenedordeimagenes img{
+    flex: 0 0 100%;
+    width: 20% ;
+    scroll-snap-align: center;
+
+}
+figcaption{
+    margin-left: 140px;
+}
+#detalle1{
+    height: 100px;
+    width: 38%;
+ position: fixed;
+left: 45%;
+top: 25%;
+font-size: 18px;
+}
+#Descripcion{
+    font-weight: bold;
+    margin-top: 100px;
+    position: fixed;
+    top: 10%;
+    left: 45%
+}
+#Distribucion{
+    font-weight: bold;
+    position: fixed;
+    top: 38%;
+    left: 45%
+}
+#detalle2{
+    height: 100px;
+    width: 38%;
+ position: fixed;
+left: 45%;
+top: 41%;
+font-size: 18px;
+}
+#Direccion{
+    font-weight: bold;
+    position: fixed;
+    top: 54%;
+    left: 45%
+}
+#detalle3{
+    height: 100px;
+    width: 38%;
+ position: fixed;
+left: 45%;
+top: 57%;
+font-size: 18px;
+}
+#Ubicacion{
+    font-weight: bold;
+    position: fixed;
+    top: 63%;
+    left: 45%
+}
+#enlace{
+
+    position: fixed;
+   left: 50%;
+   top: 63.3%;
+   }
+   
+   #Precio{
+       font-weight: bold;
+       position: fixed;
+       top: 67%;
+       left: 45%
+   }
+   #detalle4{
+       height: 100px;
+       width: 38%;
+    position: fixed;
+   left: 48%;
+   top: 67%;
+   font-size: 18px;
+   }
+
+
+
+   @media only screen and (min-device-width : 360px) and (max-device-width : 870px){
+    #detalle2-001{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    font-size: 9px;
+    margin-left: 22px;
+    text-indent: -185px;
+    margin-left: 192px;
+visibility: hidden;
+    margin-top: 350px
+    }
+    #detalle2-002{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    font-size: 9px;
+    margin-left: 22px;
+    text-indent: -185px;
+    margin-left: 192px;
+visibility: hidden;
+    margin-top: 362px
+    }
+
+    #deslizar2{
+        margin-left: 100px;
+        font-size: 10px;
+        margin-top: -8px
+    }
+    #logo{
+        width: 10.5%;
+        position: fixed;
+        top: 0.5%;
+        left: 0.5%
+    
+    }
+    #linea{
+        height: 50px;
+        width: 100%;
+        background-color: black;
+        margin: 0px;
+    }
+
+    h1{
+        position: fixed;
+        font-size: 30px;
+        left: 15%;
+        top: 2%;
+        color: aliceblue;
+    }
+    #contacto{
+        position: fixed;
+        font-size: 18px;
+        left: 78%;
+        top: 3%;
+        color: aliceblue;
+
+    }
+
+    #detalle1{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 0%;
+    top: 55%;
+    font-size: 10px;
+    visibility: hidden;
+    }
+    #detalle1-1{
+        width: 38%;
+     position: fixed;
+    left: 47.5%;
+    top: 39%;
+    font-size: 9px;
+    text-indent: -185px;
+
+      }
+      #detalle1-2{
+        width: 38%;
+     position: fixed;
+    left: 47.5%;
+    top: 34%;
+    font-size: 9px;
+    text-indent: -195px;
+    visibility: hidden;
+      }
+
+    #detalle1-3{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 47.5%;
+    top: 35.5%;
+    font-size: 9px;
+    text-indent: -195px;
+    }     
+  #detalle1-4{
+    height: 100px;
+    width: 38%;
+ position: fixed;
+left: 50%;
+top: 37%;
+font-size: 9px;
+text-indent: -205px;
+  }
+  #detalle1-5{
+    height: 100px;
+    width: 38%;
+ position: fixed;
+left: 47.5%;
+top: 38.5%;
+font-size: 9px;
+text-indent: -195px;
+  }
+    #Descripcion{
+        font-weight: bold;
+        position: fixed;
+        top: 24%;
+        left: 2%;
+        font-size: 15px;
+
+        
+    }
+    #Distribucion{
+        font-weight: bold;
+        position: fixed;
+        top: 40.5%;
+        left: 0%;
+        font-size: 15px;
+        
+    }
+    #detalle2{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 50%;
+    top: 36%;
+    font-size: 10px;
+    visibility: hidden;
+    }
+    #detalle1-6{
+        height: 100px;
+    width: 38%;
+ position: fixed;
+left: 47.5%;
+top: 35.5%;
+font-size: 9px;
+text-indent: -185px;
+    }
+    #detalle1-7{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 47.5%;
+    top: 40%;
+    font-size: 9px;
+    text-indent: -185px;
+    }
+    #detalle1-8{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 47.5%;
+    top:42%;
+    font-size: 9px;
+    text-indent: -185px;
+    }
+    #detalle1-9{
+        height: 100px;
+        width: 28%;
+     position: fixed;
+    left: 47.5%;
+    top: 44%;
+    font-size: 9px;
+    text-indent: -185px;
+    }
+   
+    #detalle1-91{
+        height: 100px;
+        width: 28%;
+     position: fixed;
+    left: 47.5%;
+    top: 51.5%;
+    font-size: 9px;
+    text-indent: -185px;
+    }
+
+    #detalle2-0{
+        height: 100px;
+        width: 28%;
+     position: fixed;
+    left: 50%;
+    top: 46.2%;
+    font-size: 9px;
+    text-indent: -195px;
+    }
+
+    #detalle2-000{
+        height: 100px;
+        width: 28%;
+     position: fixed;
+    left: 60%;
+    top: 47.5%;
+    font-size: 9px;
+    margin-top: 5px;
+    text-indent: -235px
+    }
+    
+    #detalle2-0002{
+        height: 100px;
+        width: 28%;
+     position: fixed;
+    left: 60%;
+    top: 49.5%;
+    font-size: 9px;
+    margin-top: 5px;
+    text-indent: -235px
+    }
+    
+    #detalle2-03{
+        height: 100px;
+        width: 28%;
+     position: fixed;
+    left: 60%;
+    top: 51.5%;
+    font-size: 9px;
+    margin-top: 5px;
+    text-indent: -235px
+    }
+    
+    
+    #detalle2-1{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 47.5%;
+    top: 58%;
+    font-size: 9px;
+    text-indent: -185px;
+    }
+    #detalle2-2{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 47.5%;
+    top: 65.5%;
+    font-size: 9px;
+    text-indent: -185px;
+    }
+ #detalle2-3{
+    height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 47.5%;
+    top:67.5%;
+    font-size: 9px;
+    text-indent: -185px;
+ }
+    #Direccion{
+        font-weight: bold;
+        position: fixed;
+        top: 55.5%;
+        left: 2%;
+        font-size: 15px;
+
+    }
+    #detalle3{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 2%;
+    top:47%;
+    font-size: 11px;
+    visibility: hidden;
+    }
+    #Ubicacion{
+        font-weight: bold;
+        position: fixed;
+        top: 69%;
+        left: 0%;
+        font-size: 15px;
+    }
+    #enlace{
+    
+     position: fixed;
+    left:23.3%;
+    top: 69.5%;
+    font-size: 9px;
+    }
+    
+    #Precio{
+        font-weight: bold;
+        position: fixed;
+        top: 72%;
+        left: 0%;
+        font-size: 15px;
+    }
+    #detalle4{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 15%;
+    top:72.5%;
+    font-size: 9px;
+    }
+    
+    #copy{
+        color: rgb(82, 81, 81);
+        font-size: 15px;
+        top: 70%;
+        position: fixed;
+        left: 0
+    }
+    figcaption{
+    margin-left: 50px;
+    font-size: 10px;
+    visibility: hidden;
+    }
+    #copy{
+        margin-top: 100px;
+        position: fixed;
+        top: 75%;
+        font-size: 10px;
+
+    }
+    #copy2{
+        visibility: hidden;
+    }
+    #contenedordeimagenes{
+        margin-left: 50px;
+        height: 180px;
+        width: 65%;
+        margin-top: 6%
+    }
+}
+
+#detalle1-0{
+    height: 100px;
+    width: 38%;
+ position: fixed;
+left: 60%;
+top: 110.5%;
+font-size: 25px;
+margin-top: 5px;
+text-indent: 0px
+}
+
+#detalle2-01{
+    height: 100px;
+    width: 38%;
+ position: fixed;
+left: 60%;
+top: 110.5%;
+font-size: 25px;
+margin-top: 5px;
+text-indent: 0px
+}
+
+
+
+
+@media only screen and (min-device-width : 1080px) and (max-device-width : 1920px){
+    #detalle2-001{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    font-size: 9px;
+    margin-left: 22px;
+    text-indent: -185px;
+    margin-left: 192px;
+visibility: hidden;
+    margin-top: 350px
+    }
+    #detalle2-002{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    font-size: 9px;
+    margin-left: 22px;
+    text-indent: -185px;
+    margin-left: 192px;
+visibility: hidden;
+    margin-top: 362px
+    }
+
+
+    #detalle1-2{
+        width: 38%;
+     position: fixed;
+    left: 58%;
+    top: 110.5%;
+    font-size: 10px;
+    text-indent: -180px;
+      }
+
+    #detalle1-3{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 58%;
+    top: 110.2%;
+    font-size: 10px;
+    text-indent: -180px;
+    }     
+  #detalle1-4{
+    height: 100px;
+    width: 38%;
+ position: fixed;
+left: 60.5%;
+top: 110.8%;
+font-size: 10px;
+text-indent: -190px;
+  }
+  #detalle1-5{
+    height: 100px;
+    width: 38%;
+ position: fixed;
+left: 57.8%;
+top:110.5%;
+font-size: 10px;
+text-indent: -180px;
+  }
+
+  #detalle1-6{
+    height: 100px;
+width: 38%;
+position: fixed;
+left: 57.8%;
+top: 110.5%;
+font-size: 10px;
+text-indent: -180px;
+}
+#detalle1-7{
+    height: 100px;
+    width: 38%;
+ position: fixed;
+left: 57.8%;
+top: 110%;
+font-size: 10px;
+text-indent: -180px;
+}
+#detalle1-8{
+    height: 100px;
+    width: 38%;
+ position: fixed;
+left: 57.8%;
+top: 110.5%;
+font-size: 10px;
+text-indent: -180px;
+}
+#detalle1-9{
+    height: 100px;
+    width: 28%;
+ position: fixed;
+left: 57.8%;
+top: 110%;
+font-size: 10px;
+text-indent: -180px;
+}
+
+#detalle1-95{
+    height: 100px;
+    width: 28%;
+ position: fixed;
+left: 57.8%;
+top: 110%;
+font-size: 10px;
+text-indent: -180px;
+}
+#detalle2-0{
+    height: 100px;
+    width: 38%;
+ position: fixed;
+left: 57.8%;
+top: 110.5%;
+font-size: 10px;
+text-indent: -180px;
+}
+#detalle2{
+   visibility: hidden;
+}
+#detalle2-1{
+    height: 100px;
+    width: 38%;
+ position: fixed;
+left: 57.8%;
+top: 110.5%;
+font-size: 10px;
+text-indent: -180px;
+}
+#detalle2-2{
+    height: 100px;
+    width: 38%;
+ position: fixed;
+left: 57.8%;
+top: 110%;
+font-size: 10px;
+text-indent: -180px;
+}
+#detalle2-3{
+height: 100px;
+    width: 38%;
+ position: fixed;
+left: 57.8%;
+top: 110.5%;
+font-size: 10px;
+text-indent: -180px;
+}
+
+    #deslizar2{
+        visibility: hidden;
+    }
+    #contenedordeimagenes{
+        margin-top: 8%
+    }
+
+    #logo{
+        width: 4.5%;
+        position: fixed;
+        top: 0.8%;
+        left: 1%
+    
+    }
+    #linea{
+        width: 100%;
+        height: -60%;
+        background-color: black;
+        position: fixed;
+
+    }
+
+    h1{
+        position: fixed;
+        font-size: 45px;
+        left: 45%;
+        top: 1%;
+        color: aliceblue;
+    }
+    #contacto{
+        position: fixed;
+        font-size: 30px;
+        left: 78%;
+        top: 2%;
+        color: aliceblue;
+    }
+
+    #detalle1{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 60%;
+    top: 14%;
+    font-size: 25px;
+    }
+    #Descripcion{
+        font-weight: bold;
+        margin-top: 80px;
+        position: fixed;
+        top: 3%;
+        left: 60%;
+        font-size: 30px;
+        
+    }
+    #Distribucion{
+        font-weight: bold;
+        position: fixed;
+        top: 17%;
+        left: 60%;
+        font-size: 30px;
+
+        
+    }
+    #detalle2{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 60%;
+    top: 13.5%;
+    font-size: 25px;
+    }
+    #Direccion{
+        font-weight: bold;
+        position: fixed;
+        top: 29%;
+        left: 60%;
+        font-size: 30px
+
+    }
+    #detalle3{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 60%;
+    top:32.5%;
+    font-size: 25px;
+    }
+    #Ubicacion{
+        font-weight: bold;
+        position: fixed;
+        top:52.5%;
+        left: 60%;
+        font-size: 30px
+    }
+    #enlace{
+    
+     position: fixed;
+    left: 69%;
+    top: 53%;
+    font-size: 25px
+    }
+    
+    #Precio{
+        font-weight: bold;
+        position: fixed;
+        top: 55.5%;
+        left: 60%;
+        font-size: 30px
+    }
+    #detalle4{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 65%;
+    top:56%;
+    font-size: 25px;
+    }
+    
+    #copy{
+        color: rgb(82, 81, 81);
+        font-size: 20px;
+        top: 97%;
+        position: fixed;
+        left: 0
+    }
+    figcaption{
+        font-size: 30px
+        }
+}
+
+@media only screen and (min-device-width : 890px) and (max-device-width : 1500px){
+
+    #detalle2-001{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    font-size: 9px;
+    margin-left: 22px;
+    text-indent: -185px;
+    margin-left: 192px;
+visibility: hidden;
+    margin-top: 350px
+    }
+    #detalle2-002{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    font-size: 9px;
+    margin-left: 22px;
+    text-indent: -185px;
+    margin-left: 192px;
+visibility: hidden;
+    margin-top: 362px
+    }
+
+    #detalle1-6{
+        height: 100px;
+    width: 38%;
+    position: fixed;
+    left: 57.8%;
+    top: 110.5%;
+    font-size: 10px;
+    text-indent: -180px;
+
+    }
+    #detalle1-7{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 57.8%;
+    top: 110%;
+    font-size: 10px;
+    text-indent: -180px;
+    }
+    #detalle1-8{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 57.8%;
+    top: 110.5%;
+    font-size: 10px;
+    text-indent: -180px;
+    }
+    #detalle1-9{
+        height: 100px;
+        width: 28%;
+     position: fixed;
+    left: 57.8%;
+    top: 110%;
+    font-size: 10px;
+    text-indent: -180px;
+    }
+    
+    #detalle1-95{
+        height: 100px;
+        width: 28%;
+     position: fixed;
+    left: 57.8%;
+    top: 110%;
+    font-size: 10px;
+    text-indent: -180px;
+    }
+    #detalle2-0{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 57.8%;
+    top: 110.5%;
+    font-size: 10px;
+    text-indent: -180px;
+    }
+    #detalle2-1{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 57.8%;
+    top: 110.5%;
+    font-size: 10px;
+    text-indent: -180px;
+    }
+
+    #deslizar2{
+        visibility: hidden;
+    }
+    #contenedordeimagenes{
+        margin-top: 8%
+    }
+
+    #logo{
+        width: 5.5%;
+        position: fixed;
+        top: 0.8%;
+        left: 1%
+    
+    }
+    #linea{
+        width: 100%;
+        height: -60%;
+        background-color: black;
+        position: fixed;
+
+    }
+
+    h1{
+        position: fixed;
+        font-size: 40px;
+        left: 45%;
+        top: 3%;
+        color: aliceblue;
+    }
+    #contacto{
+        position: fixed;
+        font-size: 30px;
+        left: 78%;
+        top: 3.5%;
+        color: aliceblue;
+    }
+
+    #detalle1{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 60%;
+    top: 12%;
+    font-size: 25px;
+    margin-top: 5px;
+    text-indent: 0px;
+    visibility: hidden;
+    }
+    #detalle1-1{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 60%;
+    top: 13.5%;
+    font-size: 25px;
+    margin-top: 5px;
+    text-indent: 0px
+    }
+
+
+    #Descripcion{
+        font-weight: bold;
+        margin-top: 70px;
+        position: fixed;
+        top: 3%;
+        left: 60%;
+        font-size: 30px;
+        
+    }
+    #Distribucion{
+        font-weight: bold;
+        position: fixed;
+        top: 20%;
+        left: 60%;
+        font-size: 30px;
+
+        
+    }
+    #detalle2{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 60%;
+    top: 24%;
+    font-size: 25px;
+visibility: hidden;
+    }
+
+    #detalle2-01{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 60%;
+    top: 14.5%;
+    font-size: 25px;
+
+    }
+    #Direccion{
+        font-weight: bold;
+        position: fixed;
+        top: 40%;
+        left: 60%;
+        font-size: 30px
+
+    }
+   
+    #Ubicacion{
+        font-weight: bold;
+        position: fixed;
+        top: 66.5%;
+        left: 60%;
+        font-size: 30px
+    }
+    #enlace{
+    
+     position: fixed;
+    left: 71%;
+    top: 66.8%;
+    font-size: 25px
+    }
+    
+    #Precio{
+        font-weight: bold;
+        position: fixed;
+        top: 70%;
+        left: 60%;
+        font-size: 30px
+    }
+    #detalle3{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 60%;
+    top: 44%;
+    font-size: 25px;
+    }
+    
+    #copy{
+        color: rgb(82, 81, 81);
+        font-size: 20px;
+        top: 97%;
+        position: fixed;
+        left: 0
+    }
+    figcaption{
+        font-size: 30px
+        }
+}
+
+
+@media only screen and (min-width : 1500px ) {
+    #copy2{
+        position: fixed;
+        font-size: 10px;
+     margin-top: 528px;
+visibility: hidden;
+    }
+    #detalle1-2{
+        width: 38%;
+     position: fixed;
+    left: 58%;
+    top: 110.5%;
+    font-size: 10px;
+    text-indent: -180px;
+      }
+
+    #detalle1-3{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 58%;
+    top: 110.2%;
+    font-size: 10px;
+    text-indent: -180px;
+    }     
+  #detalle1-4{
+    height: 100px;
+    width: 38%;
+ position: fixed;
+left: 60.5%;
+top: 110.8%;
+font-size: 10px;
+text-indent: -190px;
+  }
+  #detalle1-5{
+    height: 100px;
+    width: 38%;
+ position: fixed;
+left: 57.8%;
+top:110.5%;
+font-size: 10px;
+text-indent: -180px;
+  }
+
+  #detalle1-6{
+    height: 100px;
+width: 38%;
+position: fixed;
+left: 57.8%;
+top: 110.5%;
+font-size: 10px;
+text-indent: -180px;
+}
+#detalle1-7{
+    height: 100px;
+    width: 38%;
+ position: fixed;
+left: 57.8%;
+top: 110%;
+font-size: 10px;
+text-indent: -180px;
+}
+#detalle1-8{
+    height: 100px;
+    width: 38%;
+ position: fixed;
+left: 57.8%;
+top: 110.5%;
+font-size: 10px;
+text-indent: -180px;
+}
+#detalle1-9{
+    height: 100px;
+    width: 28%;
+ position: fixed;
+left: 57.8%;
+top: 110%;
+font-size: 10px;
+text-indent: -180px;
+}
+#detalle2-0{
+    height: 100px;
+    width: 38%;
+ position: fixed;
+left: 57.8%;
+top: 110.5%;
+font-size: 10px;
+text-indent: -180px;
+}
+#detalle2-1{
+    height: 100px;
+    width: 38%;
+ position: fixed;
+left: 57.8%;
+top: 110.5%;
+font-size: 10px;
+text-indent: -180px;
+}
+#detalle2-2{
+    height: 100px;
+    width: 38%;
+ position: fixed;
+left: 57.8%;
+top: 110%;
+font-size: 10px;
+text-indent: -180px;
+}
+#detalle2-3{
+height: 100px;
+    width: 38%;
+ position: fixed;
+left: 57.8%;
+top: 110.5%;
+font-size: 10px;
+text-indent: -180px;
+}
+    #deslizar2{
+        visibility: hidden;
+    }
+    #contenedordeimagenes{
+        margin-top: 8%
+    }
+
+    #logo{
+        width: 4.5%;
+        position: fixed;
+        top: 0.8%;
+        left: 1%
+    
+    }
+    #linea{
+        width: 100%;
+        height: -60%;
+        background-color: black;
+        position: fixed;
+
+    }
+
+    h1{
+        position: fixed;
+        font-size: 40px;
+        left: 45%;
+        top: 3%;
+        color: aliceblue;
+    }
+    #contacto{
+        position: fixed;
+        font-size: 30px;
+        left: 78%;
+        top: 3.5%;
+        color: aliceblue;
+    }
+
+    #detalle1{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 60%;
+    top: 18%;
+    font-size: 25px;
+    margin-top: 5px;
+    text-indent: 0px;
+    visibility: hidden;
+    }
+    #detalle1-1{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 60%;
+    top: 13.5%;
+    font-size: 25px;
+    margin-top: 35px;
+    text-indent: 0px
+    }
+
+
+    #Descripcion{
+        font-weight: bold;
+        margin-top: 70px;
+        position: fixed;
+        top: 4%;
+        left: 60%;
+        font-size: 30px;
+        
+    }
+    #Distribucion{
+        font-weight: bold;
+        position: fixed;
+        top: 26%;
+        left: 60%;
+        font-size: 30px;
+
+        
+    }
+    #detalle2{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 60%;
+    top: 38%;
+    font-size: 25px;
+    margin-top: -50px
+
+    }
+
+    #detalle2-01{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 60%;
+    top: 18.5%;
+    font-size: 25px;
+
+    }
+    #Direccion{
+        font-weight: bold;
+        position: fixed;
+        top: 50%;
+        left: 60%;
+        font-size: 30px
+
+    }
+    #detalle3{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 60%;
+    top: 56.5%;
+    font-size: 25px;
+  
+    }
+    #Ubicacion{
+        font-weight: bold;
+        position: fixed;
+        top: 89%;
+        left: 60%;
+        font-size: 30px
+    }
+    #enlace{
+    
+     position: fixed;
+    left: 71%;
+    top: 89.3%;
+    font-size: 25px
+    }
+    
+    #Precio{
+        font-weight: bold;
+        position: fixed;
+        top:93%;
+        left: 60%;
+        font-size: 30px
+    }
+    #detalle4{
+        height: 100px;
+        width: 38%;
+     position: fixed;
+    left: 67%;
+    top: 93.8%;
+    font-size: 25px;
+    }
+    
+    #copy{
+        color: rgb(82, 81, 81);
+        font-size: 20px;
+        top: 97%;
+        position: fixed;
+        left: 0
+    }
+    figcaption{
+        font-size: 30px
+        }
+
+}
+
+
